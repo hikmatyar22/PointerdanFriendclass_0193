@@ -12,6 +12,16 @@ public:
 	friend class siswa;
 };
 
+class siswa
+{
+private:
+	int id;
+
+public:
+	void setId(int pId);
+	void setdisplayAll(orang &a);
+
+};
 
 int main() {
 	
