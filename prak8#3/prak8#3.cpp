@@ -19,11 +19,12 @@ private:
 
 public:
 	void setId(int pId);
-	void setdisplayAll(orang &a);
+	void displayAll(orang &a);
 
 };
 
-int main() {
-	
-
+void siswa::displayAll(orang& a)
+{
+	cout << id << endl << a.nama;
 }
+
